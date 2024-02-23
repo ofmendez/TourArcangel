@@ -1,0 +1,188 @@
+  /* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@font-face {
+     font-family: XtreemFat;
+     src: url(../Fonts/XtreemFat.woff);
+}
+
+@font-face {
+    font-family: XtreemMedium;
+    src: url(../Fonts/XtreemMedium.woff);
+}
+
+@font-face {
+    font-family: XtreemThin;
+    src: url(../Fonts/XtreemThin.woff);
+}
+
+ * {
+     margin: 0;
+     padding: 0;
+     -webkit-tap-highlight-color: transparent;
+}
+ H2{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+     font-size: 3.5vw;
+     line-height:3vw;
+     text-transform: uppercase;
+     color: #000;
+}
+ .ImageFlexbox{
+     width:100%;
+}
+ .GeneralContainer{
+     background: #141313;
+}
+ .BannerInicialDesktop{
+     width:100%;
+     display: block;
+}
+ .BannerInicialMovil{
+     width:100%;
+     display: none;
+}
+ .BannerInicialDesktop, .BannerInicialMovil img{
+     width:100%;
+}
+ .ContentContainer{
+     background-image: url("../Images/Fondo.jpg");
+     background-position: top center;
+     background-repeat: repeat;
+     background-size: contain;
+     margin-top:-1px;
+}
+ .FirstRowContainer{
+     display: flex;
+     flex-direction: row;
+     padding:0 8%;
+     justify-content: center;
+     align-items: center;
+}
+
+.CamposFechasConciertos{
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.LineaFechaConcierto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    margin-top:3vh;
+    margin-bottom:3vh;
+    animation: fadeInAnimation 2s ease-in-out 1;
+    gap:2vw;
+}
+
+@media (max-width:768px){
+    .LineaFechaConcierto{
+        display: block;
+        text-align: center;
+        margin-top:5vh;
+        margin-bottom:2vh;
+    }
+}
+
+.FechaConcierto{
+color:#000;
+display:flex;
+
+}
+
+.DiaMesConcierto{
+    font-size:18px;
+    color: white;
+    flex-basis: 15%;
+}
+
+
+
+.CiudadConcierto{
+    font-size:20px;
+    display: inline-block;
+    flex-basis: 30%;
+}
+
+
+.LugarConcierto{
+    text-align: LEFT;
+    color:#000;
+    font-family: SupplyRegular;
+    flex-basis: 40%;
+    font-size: 20px;
+}
+
+
+
+@media (max-width:768px){
+    .LugarConcierto{
+        text-align: center;
+        padding:4px 25px 16px 25px;
+    }
+
+  
+}
+
+.BotonConcierto button{   
+    font-size:18px;
+    background-color: transparent;
+    padding: 6px 4px 8px 4px;
+    border: 0 solid transparent;
+    flex-basis: 15%;
+    transition: 0.3s;
+    width: 190px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.BotonSoldOut button{   
+    font-size:18px;
+    background-color: transparent;
+    padding: 6px 4px 8px 4px;
+    border: 0 solid transparent;
+    flex-basis: 40%;
+    width: 190px;
+    color:#fff;
+}
+
+.BotonConcierto button:hover{   
+    transform: translate(0, -4px);
+}
+
+.BotonConciertoImg{
+    width:100%;
+}
+
+.BotonConciertoSoldOut{
+    width:100%;
+}
+
+.FechaVenta button:hover{ 
+    background-color: #F81E2F;
+    color: #fff !important;
+    border-bottom-color: #A5121E;
+    transition: 0.3s;
+
+}
+
+.SoldOut button{
+color:#fff !important;
+text-decoration:line-through 2px;
+cursor:default !important;
+}
+
+
+ @media (max-width: 800px){
+     H2{
+         font-size: 8vw;
+         line-height:7vw;
+    }
+     .FirstRowContainer{
+         flex-direction: column;
+    }
+    
+}
+ 
