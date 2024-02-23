@@ -25,7 +25,7 @@
 }
 @media (max-width: 768px){
     p{
-        font-size:36px;
+        font-size:28px;
    }
 }
  .ImageFlexbox{
@@ -106,10 +106,16 @@
      color: white;
      flex-basis: 14%; /*Ancho fecha mes día*/
 }
+
+.BlurText{
+    color:white;
+    filter: blur(6px);
+
+}
  .CiudadConcierto{
      font-size:20px;
      display: inline-block;
-     flex-basis: 36%; /*Ancho ciudad país*/
+     flex-basis: 32%; /*Ancho ciudad país*/
      text-align:left;
      color: #617e3a;
      
@@ -122,7 +128,7 @@
  .LugarConcierto{
      text-align: left;
      color:#617e3a;
-     flex-basis: 35%;/*Ancho lugar concierto*/
+     flex-basis: 32%;/*Ancho lugar concierto*/
      font-size: 20px;
 }
  @media (max-width:768px){
@@ -132,7 +138,7 @@
     }
 }
 .BotonConcierto{
-    flex-basis: 15%;/*Ancho botón*/
+    flex-basis: 22%;/*Ancho botón*/
 }
  .BotonConcierto button{
      background-color: transparent;
@@ -144,8 +150,13 @@
 }
 
 @media (max-width:768px){
+
+    .BotonVenta button{
+        width:68%;
+   }
+
     .BotonSoldOut button{
-        width:70%;
+        width:60%;
    }
 }
  .BotonConcierto button:hover{
