@@ -149,6 +149,10 @@
      cursor: pointer;
 }
 
+.BotonSoldOut button{
+    width:80%;
+}
+
 @media (max-width:768px){
 
     .BotonVenta button{
@@ -158,6 +162,10 @@
     .BotonSoldOut button{
         width:60%;
    }
+
+   .BotonSoon button{
+    width:68%;
+}
 }
  .BotonConcierto button:hover{
      transform: translate(0, -4px);
