@@ -34,12 +34,22 @@
  .GeneralContainer{
      background: #0d0b0c;
 }
+
+.VideoContainer{
+    text-align: center;
+}
+
+    iframe {
+        width: 60vw;
+        height: 33vw;
+    }
  .BannerTour{
      width:50%;
      padding-top:10%;
      padding-bottom:5%;
      margin: 0 auto;
      display: block;
+     max-width: 600px;
 }
  .ContentContainer{
      background-image: url("../Images/FondoBN.jpg");
