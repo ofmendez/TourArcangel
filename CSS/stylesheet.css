@@ -42,6 +42,7 @@
     iframe {
         width: 60vw;
         height: 33vw;
+        margin: 0 auto;
     }
  .BannerTour{
      width:50%;
